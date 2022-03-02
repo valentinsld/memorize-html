@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import '../_assets/_main.less'
+import '../_assets/less/_main.less'
 
 export default {
   name: 'LayoutDefault'
