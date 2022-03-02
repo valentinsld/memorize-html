@@ -1,0 +1,1052 @@
+{
+  "html": {
+    "balise": "<html>",
+    "name": "html",
+    "info": "Defines an HTML document",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html",
+    "description": "The\n <strong>\n  <code>\n   &lt;html&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents the root (top-level element) of an HTML document, so it is also referred to as the\n <em>\n  root element\n </em>\n . All other elements must be descendants of this element."
+  },
+  "head": {
+    "balise": "<head>",
+    "name": "head",
+    "info": "Defines information about the document",
+    "typeTitle": "Meta Info",
+    "typeIndex": 10,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head",
+    "description": "The\n <strong>\n  <code>\n   &lt;head&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element contains machine-readable information (metadata) about the document, like its\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\">\n  title\n </a>\n ,\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\">\n  scripts\n </a>\n , and\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\">\n  style sheets\n </a>\n ."
+  },
+  "title": {
+    "balise": "<title>",
+    "name": "title",
+    "info": "Defines a title for the document",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title",
+    "description": "The\n <strong>\n  <code>\n   &lt;title&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored."
+  },
+  "body": {
+    "balise": "<body>",
+    "name": "body",
+    "info": "Defines the document's body",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
+    "description": "The\n <strong>\n  <code>\n   &lt;body&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents the content of an HTML document. There can be only one\n <code>\n  &lt;body&gt;\n </code>\n element in a document."
+  },
+  "h1 to h6": {
+    "balise": "<h1> to <h6>",
+    "name": "h1 to h6",
+    "info": " Defines HTML headings",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements",
+    "description": "The\n <strong>\n  <code>\n   &lt;h1&gt;\n  </code>\n </strong>\n to\n <strong>\n  <code>\n   &lt;h6&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n elements represent six levels of section headings.\n <code>\n  &lt;h1&gt;\n </code>\n is the highest section level and\n <code>\n  &lt;h6&gt;\n </code>\n is the lowest."
+  },
+  "p": {
+    "balise": "<p>",
+    "name": "p",
+    "info": "Defines a paragraph",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p",
+    "description": "The\n <strong>\n  <code>\n   &lt;p&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields."
+  },
+  "br": {
+    "balise": "<br>",
+    "name": "br",
+    "info": "Inserts a single line break",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br",
+    "description": "The\n <strong>\n  <code>\n   &lt;br&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant."
+  },
+  "hr": {
+    "balise": "<hr>",
+    "name": "hr",
+    "info": " Defines a thematic change in the content",
+    "typeTitle": "Basic HTML",
+    "typeIndex": 0,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
+    "description": "The\n <strong>\n  <code>\n   &lt;hr&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section."
+  },
+  "abbr": {
+    "balise": "<abbr>",
+    "name": "abbr",
+    "info": "Defines an abbreviation or an acronym",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr",
+    "description": "The\n <strong>\n  <code>\n   &lt;abbr&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents an abbreviation or acronym; the optional\n <code>\n  title\n </code>\n attribute can provide an expansion or description for the abbreviation. If present,\n <code>\n  title\n </code>\n must contain this full description and nothing else."
+  },
+  "address": {
+    "balise": "<address>",
+    "name": "address",
+    "info": "Defines contact information for the author/owner of a document/article",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address",
+    "description": "The\n <strong>\n  <code>\n   &lt;address&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element indicates that the enclosed HTML provides contact information for a person or people, or for an organization."
+  },
+  "b": {
+    "balise": "<b>",
+    "name": "b",
+    "info": "Defines bold text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b",
+    "description": "The\n <strong>\n  <code>\n   &lt;b&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, you should not use\n <code>\n  &lt;b&gt;\n </code>\n for styling text; instead, you should use the CSS\n <code>\n  font-weight\n </code>\n property to create boldface text, or the\n <code>\n  strong\n </code>\n element to indicate that text is of special importance."
+  },
+  "bdi": {
+    "balise": "<bdi>",
+    "name": "bdi",
+    "info": "Isolates a part of text that might be formatted in a different direction \nfrom other text outside it",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi",
+    "description": "The\n <strong>\n  <code>\n   &lt;bdi&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element tells the browser's bidirectional algorithm to treat the text it contains in isolation from its surrounding text. It's particularly useful when a website dynamically inserts some text and doesn't know the directionality of the text being inserted."
+  },
+  "bdo": {
+    "balise": "<bdo>",
+    "name": "bdo",
+    "info": "Overrides the current text direction",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo",
+    "description": "The\n <strong>\n  <code>\n   &lt;bdo&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element overrides the current directionality of text, so that the text within is rendered in a different direction."
+  },
+  "blockquote": {
+    "balise": "<blockquote>",
+    "name": "blockquote",
+    "info": "Defines a section that is quoted from another source",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote",
+    "description": "The\n <strong>\n  <code>\n   &lt;blockquote&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see\n <a href=\"#usage_notes\">\n  Notes\n </a>\n for how to change it). A URL for the source of the quotation may be given using the\n <strong>\n  cite\n </strong>\n attribute, while a text representation of the source can be given using the\n <code>\n  cite\n </code>\n element."
+  },
+  "cite": {
+    "balise": "<cite>",
+    "name": "cite",
+    "info": "Defines the title of a work",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite",
+    "description": "The\n <strong>\n  <code>\n   &lt;cite&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to describe a reference to a cited creative work, and must include the title of that work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata."
+  },
+  "code": {
+    "balise": "<code>",
+    "name": "code",
+    "info": "Defines a piece of computer code",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code",
+    "description": "The\n <strong>\n  <code>\n   &lt;code&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the user agent default monospace font."
+  },
+  "del": {
+    "balise": "<del>",
+    "name": "del",
+    "info": "Defines text that has been deleted from a document",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del",
+    "description": "The\n <strong>\n  <code>\n   &lt;del&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a range of text that has been deleted from a document. This can be used when rendering \"track changes\" or source code diff information, for example. The\n <code>\n  ins\n </code>\n element can be used for the opposite purpose: to indicate text that has been added to the document."
+  },
+  "dfn": {
+    "balise": "<dfn>",
+    "name": "dfn",
+    "info": "Specifies a term that is going to be defined within the content",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn",
+    "description": "The\n <strong>\n  <code>\n   &lt;dfn&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to indicate the term being defined within the context of a definition phrase or sentence. The\n <code>\n  p\n </code>\n element, the\n <code>\n  dt\n </code>\n /\n <code>\n  dd\n </code>\n pairing, or the\n <code>\n  section\n </code>\n element which is the nearest ancestor of the\n <code>\n  &lt;dfn&gt;\n </code>\n is considered to be the definition of the term."
+  },
+  "em": {
+    "balise": "<em>",
+    "name": "em",
+    "info": "Defines emphasized text\u00a0",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em",
+    "description": "The\n <strong>\n  <code>\n   &lt;em&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element marks text that has stress emphasis. The\n <code>\n  &lt;em&gt;\n </code>\n element can be nested, with each level of nesting indicating a greater degree of emphasis."
+  },
+  "i": {
+    "balise": "<i>",
+    "name": "i",
+    "info": "Defines a part of text in an alternate voice or mood",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i",
+    "description": "The\n <strong>\n  <code>\n   &lt;i&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others. Historically, these have been presented using italicized type, which is the original source of the\n <code>\n  &lt;i&gt;\n </code>\n naming of this element."
+  },
+  "ins": {
+    "balise": "<ins>",
+    "name": "ins",
+    "info": "Defines a text that has been inserted into a document",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins",
+    "description": "The\n <strong>\n  <code>\n   &lt;ins&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a range of text that has been added to a document. You can use the\n <code>\n  del\n </code>\n element to similarly represent a range of text that has been deleted from the document."
+  },
+  "kbd": {
+    "balise": "<kbd>",
+    "name": "kbd",
+    "info": "Defines keyboard input",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd",
+    "description": "The\n <strong>\n  <code>\n   &lt;kbd&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device. By convention, the user agent defaults to rendering the contents of a\n <code>\n  &lt;kbd&gt;\n </code>\n element using its default monospace font, although this is not mandated by the HTML standard."
+  },
+  "mark": {
+    "balise": "<mark>",
+    "name": "mark",
+    "info": "Defines marked/highlighted text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark",
+    "description": "The\n <strong>\n  <code>\n   &lt;mark&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents text which is\n <strong>\n  marked\n </strong>\n or\n <strong>\n  highlighted\n </strong>\n for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context."
+  },
+  "meter": {
+    "balise": "<meter>",
+    "name": "meter",
+    "info": "Defines a scalar measurement within a known range (a gauge)",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter",
+    "description": "The\n <strong>\n  <code>\n   &lt;meter&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents either a scalar value within a known range or a fractional value."
+  },
+  "pre": {
+    "balise": "<pre>",
+    "name": "pre",
+    "info": "Defines preformatted text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
+    "description": "The\n <strong>\n  <code>\n   &lt;pre&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents preformatted text which is to be presented exactly as written in the HTML file. The text is typically rendered using a non-proportional, or \"\n <a class=\"external\" href=\"https://en.wikipedia.org/wiki/Monospaced_font\" rel=\"noopener\">\n  monospaced\n </a>\n , font. Whitespace inside this element is displayed as written."
+  },
+  "progress": {
+    "balise": "<progress>",
+    "name": "progress",
+    "info": "Represents the progress of a task",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
+    "description": "The\n <strong>\n  <code>\n   &lt;progress&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element displays an indicator showing the completion progress of a task, typically displayed as a progress bar."
+  },
+  "q": {
+    "balise": "<q>",
+    "name": "q",
+    "info": "Defines a short quotation",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q",
+    "description": "The\n <strong>\n  <code>\n   &lt;q&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. This element is intended for short quotations that don't require paragraph breaks; for long quotations use the\n <code>\n  blockquote\n </code>\n element."
+  },
+  "rp": {
+    "balise": "<rp>",
+    "name": "rp",
+    "info": "Defines what to show in browsers that do not support ruby annotations",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp",
+    "description": "The\n <strong>\n  <code>\n   &lt;rp&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the\n <code>\n  ruby\n </code>\n element. One\n <code>\n  &lt;rp&gt;\n </code>\n element should enclose each of the opening and closing parentheses that wrap the\n <code>\n  rt\n </code>\n element that contains the annotation's text."
+  },
+  "rt": {
+    "balise": "<rt>",
+    "name": "rt",
+    "info": "Defines an explanation/pronunciation of characters (for East Asian \ntypography)",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt",
+    "description": "The\n <strong>\n  <code>\n   &lt;rt&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The\n <code>\n  &lt;rt&gt;\n </code>\n element must always be contained within a\n <code>\n  ruby\n </code>\n element."
+  },
+  "ruby": {
+    "balise": "<ruby>",
+    "name": "ruby",
+    "info": "Defines a ruby annotation (for East Asian typography)",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby",
+    "description": "The\n <strong>\n  <code>\n   &lt;ruby&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents small annotations that are rendered above, below, or next to base text, usually used for showing the pronunciation of East Asian characters. It can also be used for annotating other kinds of text, but this usage is less common."
+  },
+  "s": {
+    "balise": "<s>",
+    "name": "s",
+    "info": "Defines text that is no longer correct",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s",
+    "description": "The\n <strong>\n  <code>\n   &lt;s&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element renders text with a strikethrough, or a line through it. Use the\n <code>\n  &lt;s&gt;\n </code>\n element to represent things that are no longer relevant or no longer accurate. However,\n <code>\n  &lt;s&gt;\n </code>\n is not appropriate when indicating document edits; for that, use the\n <code>\n  del\n </code>\n and\n <code>\n  ins\n </code>\n elements, as appropriate."
+  },
+  "samp": {
+    "balise": "<samp>",
+    "name": "samp",
+    "info": "Defines sample output from a computer program",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp",
+    "description": "The\n <strong>\n  <code>\n   &lt;samp&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to enclose inline text which represents sample (or quoted) output from a computer program. Its contents are typically rendered using the browser's default monospaced font (such as Courier or Lucida Console)."
+  },
+  "small": {
+    "balise": "<small>",
+    "name": "small",
+    "info": "Defines smaller text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small",
+    "description": "The\n <strong>\n  <code>\n   &lt;small&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from\n <code>\n  small\n </code>\n to\n <code>\n  x-small\n </code>\n ."
+  },
+  "strong": {
+    "balise": "<strong>",
+    "name": "strong",
+    "info": "Defines important text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong",
+    "description": "The\n <strong>\n  <code>\n   &lt;strong&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type."
+  },
+  "sub": {
+    "balise": "<sub>",
+    "name": "sub",
+    "info": "Defines subscripted text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub",
+    "description": "The\n <strong>\n  <code>\n   &lt;sub&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text."
+  },
+  "sup": {
+    "balise": "<sup>",
+    "name": "sup",
+    "info": "Defines superscripted text",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup",
+    "description": "The\n <strong>\n  <code>\n   &lt;sup&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text."
+  },
+  "template": {
+    "balise": "<template>",
+    "name": "template",
+    "info": "Defines a container for content that should be hidden when the page loads",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template",
+    "description": "The\n <strong>\n  <code>\n   &lt;template&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript."
+  },
+  "time": {
+    "balise": "<time>",
+    "name": "time",
+    "info": "Defines a specific time (or datetime)",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time",
+    "description": "The\n <strong>\n  <code>\n   &lt;time&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a specific period in time. It may include the\n <code>\n  datetime\n </code>\n attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders."
+  },
+  "u": {
+    "balise": "<u>",
+    "name": "u",
+    "info": "Defines some text that is unarticulated and styled differently from normal \ntext",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u",
+    "description": "The\n <strong>\n  <code>\n   &lt;u&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation. This is rendered by default as a simple solid underline, but may be altered using CSS."
+  },
+  "var": {
+    "balise": "<var>",
+    "name": "var",
+    "info": "Defines a variable",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var",
+    "description": "The\n <strong>\n  <code>\n   &lt;var&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents the name of a variable in a mathematical expression or a programming context. It's typically presented using an italicized version of the current typeface, although that behavior is browser-dependent."
+  },
+  "wbr": {
+    "balise": "<wbr>",
+    "name": "wbr",
+    "info": "Defines a possible line-break",
+    "typeTitle": "Formatting",
+    "typeIndex": 1,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr",
+    "description": "The\n <strong>\n  <code>\n   &lt;wbr&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a word break opportunity\u2014a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location."
+  },
+  "form": {
+    "balise": "<form>",
+    "name": "form",
+    "info": "Defines an HTML form for user input",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
+    "description": "The\n <strong>\n  <code>\n   &lt;form&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a document section containing interactive controls for submitting information."
+  },
+  "input": {
+    "balise": "<input>",
+    "name": "input",
+    "info": "Defines an input control",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
+    "description": "The\n <strong>\n  <code>\n   &lt;input&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. The\n <code>\n  &lt;input&gt;\n </code>\n element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes."
+  },
+  "textarea": {
+    "balise": "<textarea>",
+    "name": "textarea",
+    "info": "Defines a multiline input control (text area)",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea",
+    "description": "The\n <strong>\n  <code>\n   &lt;textarea&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form."
+  },
+  "button": {
+    "balise": "<button>",
+    "name": "button",
+    "info": "Defines a clickable button",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button",
+    "description": "The\n <strong>\n  <code>\n   &lt;button&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a clickable button, used to submit\n <a href=\"https://developer.mozilla.org/en-US/docs/Learn/Forms\">\n  forms\n </a>\n or anywhere in a document for accessible, standard button functionality."
+  },
+  "select": {
+    "balise": "<select>",
+    "name": "select",
+    "info": "Defines a drop-down list",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
+    "description": "The\n <strong>\n  <code>\n   &lt;select&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a control that provides a menu of options:"
+  },
+  "optgroup": {
+    "balise": "<optgroup>",
+    "name": "optgroup",
+    "info": "Defines a group of related options in a drop-down list",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
+    "description": "The\n <strong>\n  <code>\n   &lt;optgroup&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element creates a grouping of options within a\n <code>\n  select\n </code>\n element."
+  },
+  "option": {
+    "balise": "<option>",
+    "name": "option",
+    "info": "Defines an option in a drop-down list",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option",
+    "description": "The\n <strong>\n  <code>\n   &lt;option&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to define an item contained in a\n <code>\n  select\n </code>\n , an\n <code>\n  optgroup\n </code>\n , or a\n <code>\n  datalist\n </code>\n element. As such,\n <code>\n  &lt;option&gt;\n </code>\n can represent menu items in popups and other lists of items in an HTML document."
+  },
+  "label": {
+    "balise": "<label>",
+    "name": "label",
+    "info": "Defines a label\u00a0for an <input> element",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label",
+    "description": "The\n <strong>\n  <code>\n   &lt;label&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a caption for an item in a user interface."
+  },
+  "fieldset": {
+    "balise": "<fieldset>",
+    "name": "fieldset",
+    "info": "Groups related elements in a form",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset",
+    "description": "The\n <strong>\n  <code>\n   &lt;fieldset&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to group several controls as well as labels (\n <code>\n  label\n </code>\n ) within a web form."
+  },
+  "legend": {
+    "balise": "<legend>",
+    "name": "legend",
+    "info": "Defines a caption for a <fieldset> element",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend",
+    "description": "The\n <strong>\n  <code>\n   &lt;legend&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a caption for the content of its parent\n <code>\n  fieldset\n </code>\n ."
+  },
+  "datalist": {
+    "balise": "<datalist>",
+    "name": "datalist",
+    "info": "Specifies a list of pre-defined options for input controls",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist",
+    "description": "The\n <strong>\n  <code>\n   &lt;datalist&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element contains a set of\n <code>\n  option\n </code>\n elements that represent the permissible or recommended options available to choose from within other controls."
+  },
+  "output": {
+    "balise": "<output>",
+    "name": "output",
+    "info": "Defines the result of a calculation",
+    "typeTitle": "Forms and Input",
+    "typeIndex": 2,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
+    "description": "The\n <strong>\n  <code>\n   &lt;output&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action."
+  },
+  "iframe": {
+    "balise": "<iframe>",
+    "name": "iframe",
+    "info": "Defines an inline frame",
+    "typeTitle": "Frames",
+    "typeIndex": 3,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
+    "description": "The\n <strong>\n  <code>\n   &lt;iframe&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a nested browsing context, embedding another HTML page into the current one."
+  },
+  "img": {
+    "balise": "<img>",
+    "name": "img",
+    "info": "Defines an image",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
+    "description": "The\n <strong>\n  <code>\n   &lt;img&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element embeds an image into the document."
+  },
+  "map": {
+    "balise": "<map>",
+    "name": "map",
+    "info": "Defines a client-side image map ",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map",
+    "description": "The\n <strong>\n  <code>\n   &lt;map&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used with\n <code>\n  area\n </code>\n elements to define an image map (a clickable link area)."
+  },
+  "area": {
+    "balise": "<area>",
+    "name": "area",
+    "info": "Defines an area inside an image map",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
+    "description": "The\n <strong>\n  <code>\n   &lt;area&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines an area inside an image map that has predefined clickable areas. An\n <em>\n  image map\n </em>\n allows geometric areas on an image to be associated with Hyperlink."
+  },
+  "canvas": {
+    "balise": "<canvas>",
+    "name": "canvas",
+    "info": "Used to draw graphics, on the fly, via scripting (usually JavaScript)",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas",
+    "description": "Use the\n <strong>\n  HTML\n  <code>\n   &lt;canvas&gt;\n  </code>\n  element\n </strong>\n with either the\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">\n  canvas scripting API\n </a>\n or the\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API\">\n  WebGL API\n </a>\n to draw graphics and animations."
+  },
+  "figcaption": {
+    "balise": "<figcaption>",
+    "name": "figcaption",
+    "info": "Defines a caption for a <figure> element",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption",
+    "description": "The\n <strong>\n  <code>\n   &lt;figcaption&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a caption or legend describing the rest of the contents of its parent\n <code>\n  figure\n </code>\n element."
+  },
+  "figure": {
+    "balise": "<figure>",
+    "name": "figure",
+    "info": "Specifies self-contained content",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure",
+    "description": "The\n <strong>\n  <code>\n   &lt;figure&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents self-contained content, potentially with an optional caption, which is specified using the\n <code>\n  figcaption\n </code>\n element. The figure, its caption, and its contents are referenced as a single unit."
+  },
+  "picture": {
+    "balise": "<picture>",
+    "name": "picture",
+    "info": "Defines a container for multiple image resources",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture",
+    "description": "The\n <strong>\n  <code>\n   &lt;picture&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element contains zero or more\n <code>\n  source\n </code>\n elements and one\n <code>\n  img\n </code>\n element to offer alternative versions of an image for different display/device scenarios."
+  },
+  "svg": {
+    "balise": "<svg>",
+    "name": "svg",
+    "info": "Defines a container for SVG graphics",
+    "typeTitle": "Images",
+    "typeIndex": 4,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg",
+    "description": "The\n <code>\n  svg\n </code>\n element is a container that defines a new\n        coordinate system and\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox\">\n  viewport\n </a>\n . It is used\n        as the outermost element of SVG documents, but it can also be used to\n        embed an SVG fragment inside an SVG or HTML document."
+  },
+  "audio": {
+    "balise": "<audio>",
+    "name": "audio",
+    "info": "Defines sound content",
+    "typeTitle": "Audio / Video",
+    "typeIndex": 5,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
+    "description": "The\n <strong>\n  <code>\n   &lt;audio&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to embed sound content in documents. It may contain one or more audio sources, represented using the\n <code>\n  src\n </code>\n attribute or the\n <code>\n  source\n </code>\n element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a\n <code>\n  MediaStream\n </code>\n ."
+  },
+  "source": {
+    "balise": "<source>",
+    "name": "source",
+    "info": "Defines multiple media resources for media elements (<video>, <audio> \nand <picture>)",
+    "typeTitle": "Audio / Video",
+    "typeIndex": 5,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
+    "description": "The\n <strong>\n  <code>\n   &lt;source&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies multiple media resources for the\n <code>\n  picture\n </code>\n , the\n <code>\n  audio\n </code>\n element, or the\n <code>\n  video\n </code>\n element. It is an empty element, meaning that it has no content and does not have a closing tag. It is commonly used to offer the same media content in multiple file formats in order to provide compatibility with a broad range of browsers given their differing support for\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types\">\n  image file formats\n </a>\n and\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/Media/Formats\">\n  media file formats\n </a>\n ."
+  },
+  "track": {
+    "balise": "<track>",
+    "name": "track",
+    "info": "Defines text tracks for media elements (<video> and <audio>)",
+    "typeTitle": "Audio / Video",
+    "typeIndex": 5,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
+    "description": "The\n <strong>\n  <code>\n   &lt;track&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used as a child of the media elements,\n <code>\n  audio\n </code>\n and\n <code>\n  video\n </code>\n . It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API\">\n  WebVTT format\n </a>\n (\n <code>\n  .vtt\n </code>\n files) \u2014 Web Video Text Tracks."
+  },
+  "video": {
+    "balise": "<video>",
+    "name": "video",
+    "info": "Defines a video or movie",
+    "typeTitle": "Audio / Video",
+    "typeIndex": 5,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+    "description": "The\n <strong>\n  <code>\n   &lt;video&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element embeds a media player which supports video playback into the document. You can use\n <code>\n  &lt;video&gt;\n </code>\n for audio content as well, but the\n <code>\n  audio\n </code>\n element may provide a more appropriate user experience."
+  },
+  "a": {
+    "balise": "<a>",
+    "name": "a",
+    "info": "Defines a hyperlink",
+    "typeTitle": "Links",
+    "typeIndex": 6,
+    "level": 1,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
+    "description": "The\n <strong>\n  <code>\n   &lt;a&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element (or\n <em>\n  anchor\n </em>\n element), with\n <a href=\"#attr-href\">\n  its\n  <code>\n   href\n  </code>\n  attribute\n </a>\n , creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address."
+  },
+  "link": {
+    "balise": "<link>",
+    "name": "link",
+    "info": "Defines the relationship between a document and an external resource (most \nused to link to style sheets)",
+    "typeTitle": "Links",
+    "typeIndex": 6,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
+    "description": "The\n <strong>\n  <code>\n   &lt;link&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies relationships between the current document and an external resource.\n  This element is most commonly used to link to CSS, but is also used to establish site icons (both \"favicon\" style icons and icons for the home screen and apps on mobile devices) among other things."
+  },
+  "nav": {
+    "balise": "<nav>",
+    "name": "nav",
+    "info": "Defines navigation links",
+    "typeTitle": "Links",
+    "typeIndex": 6,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav",
+    "description": "The\n <strong>\n  <code>\n   &lt;nav&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes."
+  },
+  "ul": {
+    "balise": "<ul>",
+    "name": "ul",
+    "info": "Defines an unordered list",
+    "typeTitle": "Lists",
+    "typeIndex": 7,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul",
+    "description": "The\n <strong>\n  <code>\n   &lt;ul&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents an unordered list of items, typically rendered as a bulleted list."
+  },
+  "ol": {
+    "balise": "<ol>",
+    "name": "ol",
+    "info": "Defines an ordered list",
+    "typeTitle": "Lists",
+    "typeIndex": 7,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol",
+    "description": "The\n <strong>\n  <code>\n   &lt;ol&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents an ordered list of items \u2014 typically rendered as a numbered list."
+  },
+  "li": {
+    "balise": "<li>",
+    "name": "li",
+    "info": "Defines a list item",
+    "typeTitle": "Lists",
+    "typeIndex": 7,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li",
+    "description": "The\n <strong>\n  <code>\n   &lt;li&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to represent an item in a list. It must be contained in a parent element: an ordered list (\n <code>\n  ol\n </code>\n ), an unordered list (\n <code>\n  ul\n </code>\n ), or a menu (\n <code>\n  menu\n </code>\n ). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter."
+  },
+  "dl": {
+    "balise": "<dl>",
+    "name": "dl",
+    "info": "Defines a description list",
+    "typeTitle": "Lists",
+    "typeIndex": 7,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl",
+    "description": "The\n <strong>\n  <code>\n   &lt;dl&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a description list. The element encloses a list of groups of terms (specified using the\n <code>\n  dt\n </code>\n element) and descriptions (provided by\n <code>\n  dd\n </code>\n elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs)."
+  },
+  "dt": {
+    "balise": "<dt>",
+    "name": "dt",
+    "info": "Defines a term/name in a description list",
+    "typeTitle": "Lists",
+    "typeIndex": 7,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt",
+    "description": "The\n <strong>\n  <code>\n   &lt;dt&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies a term in a description or definition list, and as such must be used inside a\n <code>\n  dl\n </code>\n element. It is usually followed by a\n <code>\n  dd\n </code>\n element; however, multiple\n <code>\n  &lt;dt&gt;\n </code>\n elements in a row indicate several terms that are all defined by the immediate next\n <code>\n  dd\n </code>\n element."
+  },
+  "dd": {
+    "balise": "<dd>",
+    "name": "dd",
+    "info": "Defines a description of a term/name in a description list",
+    "typeTitle": "Lists",
+    "typeIndex": 7,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd",
+    "description": "The\n <strong>\n  <code>\n   &lt;dd&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element provides the description, definition, or value for the preceding term (\n <code>\n  dt\n </code>\n ) in a description list (\n <code>\n  dl\n </code>\n )."
+  },
+  "table": {
+    "balise": "<table>",
+    "name": "table",
+    "info": "Defines a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table",
+    "description": "The\n <strong>\n  <code>\n   &lt;table&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents tabular data \u2014 that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data."
+  },
+  "caption": {
+    "balise": "<caption>",
+    "name": "caption",
+    "info": "Defines a table caption",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption",
+    "description": "The\n <strong>\n  <code>\n   &lt;caption&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies the caption (or title) of a table."
+  },
+  "th": {
+    "balise": "<th>",
+    "name": "th",
+    "info": "Defines a header cell in a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th",
+    "description": "The\n <strong>\n  <code>\n   &lt;th&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a cell as header of a group of table cells. The exact nature of this group is defined by the\n <code>\n  scope\n </code>\n and\n <code>\n  headers\n </code>\n attributes."
+  },
+  "tr": {
+    "balise": "<tr>",
+    "name": "tr",
+    "info": "Defines a row in a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr",
+    "description": "The\n <strong>\n  <code>\n   &lt;tr&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a row of cells in a table. The row's cells can then be established using a mix of\n <code>\n  td\n </code>\n (data cell) and\n <code>\n  th\n </code>\n (header cell) elements."
+  },
+  "td": {
+    "balise": "<td>",
+    "name": "td",
+    "info": "Defines a cell in a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
+    "description": "The\n <strong>\n  <code>\n   &lt;td&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a cell of a table that contains data. It participates in the\n <em>\n  table model\n </em>\n ."
+  },
+  "thead": {
+    "balise": "<thead>",
+    "name": "thead",
+    "info": "Groups the header content in a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead",
+    "description": "The\n <strong>\n  <code>\n   &lt;thead&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a set of rows defining the head of the columns of the table."
+  },
+  "tbody": {
+    "balise": "<tbody>",
+    "name": "tbody",
+    "info": "Groups the body content in a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody",
+    "description": "The\n <strong>\n  <code>\n   &lt;tbody&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element encapsulates a set of table rows (\n <code>\n  tr\n </code>\n elements), indicating that they comprise the body of the table (\n <code>\n  table\n </code>\n )."
+  },
+  "tfoot": {
+    "balise": "<tfoot>",
+    "name": "tfoot",
+    "info": "Groups the footer content in a table",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot",
+    "description": "The\n <strong>\n  <code>\n   &lt;tfoot&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a set of rows summarizing the columns of the table."
+  },
+  "col": {
+    "balise": "<col>",
+    "name": "col",
+    "info": "Specifies column properties for each column within a <colgroup> element ",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col",
+    "description": "The\n <strong>\n  <code>\n   &lt;col&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a\n <code>\n  colgroup\n </code>\n element."
+  },
+  "colgroup": {
+    "balise": "<colgroup>",
+    "name": "colgroup",
+    "info": "Specifies a group of one or more columns in a table for formatting",
+    "typeTitle": "Tables",
+    "typeIndex": 8,
+    "level": 3,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup",
+    "description": "The\n <strong>\n  <code>\n   &lt;colgroup&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a group of columns within a table."
+  },
+  "style": {
+    "balise": "<style>",
+    "name": "style",
+    "info": "Defines style information for a document",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style",
+    "description": "The\n <strong>\n  <code>\n   &lt;style&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the\n <code>\n  &lt;style&gt;\n </code>\n element."
+  },
+  "div": {
+    "balise": "<div>",
+    "name": "div",
+    "info": "Defines a section in a document",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
+    "description": "The\n <strong>\n  <code>\n   &lt;div&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout\">\n  Flexbox\n </a>\n is applied to its parent element)."
+  },
+  "span": {
+    "balise": "<span>",
+    "name": "span",
+    "info": "Defines a section in a document",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span",
+    "description": "The\n <strong>\n  <code>\n   &lt;span&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the\n <code>\n  class\n </code>\n or\n <code>\n  id\n </code>\n attributes), or because they share attribute values, such as\n <code>\n  lang\n </code>\n . It should be used only when no other semantic element is appropriate.\n <code>\n  &lt;span&gt;\n </code>\n is very much like a\n <code>\n  div\n </code>\n element, but\n <code>\n  div\n </code>\n is a\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements\">\n  block-level element\n </a>\n whereas a\n <code>\n  &lt;span&gt;\n </code>\n is an\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements\">\n  inline element\n </a>\n ."
+  },
+  "header": {
+    "balise": "<header>",
+    "name": "header",
+    "info": "Defines a header for a document or section",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header",
+    "description": "The\n <strong>\n  <code>\n   &lt;header&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements."
+  },
+  "footer": {
+    "balise": "<footer>",
+    "name": "footer",
+    "info": "Defines a footer for a document or section",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer",
+    "description": "The\n <strong>\n  <code>\n   &lt;footer&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a footer for its nearest\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#sectioning_content\">\n  sectioning content\n </a>\n or\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#sectioning_root\">\n  sectioning root\n </a>\n element. A\n <code>\n  &lt;footer&gt;\n </code>\n typically contains information about the author of the section, copyright data or links to related documents."
+  },
+  "main": {
+    "balise": "<main>",
+    "name": "main",
+    "info": "Specifies the main content of a document",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main",
+    "description": "The\n <strong>\n  <code>\n   &lt;main&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents the dominant content of the\n <code>\n  body\n </code>\n of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application."
+  },
+  "section": {
+    "balise": "<section>",
+    "name": "section",
+    "info": "Defines a section in a document",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section",
+    "description": "The\n <strong>\n  <code>\n   &lt;section&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions."
+  },
+  "article": {
+    "balise": "<article>",
+    "name": "article",
+    "info": "Defines an article",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article",
+    "description": "The\n <strong>\n  <code>\n   &lt;article&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content."
+  },
+  "aside": {
+    "balise": "<aside>",
+    "name": "aside",
+    "info": "Defines content aside from the page content",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
+    "description": "The\n <strong>\n  <code>\n   &lt;aside&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes."
+  },
+  "details": {
+    "balise": "<details>",
+    "name": "details",
+    "info": "Defines additional details that the user can view or hide",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
+    "description": "The\n <strong>\n  <code>\n   &lt;details&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element creates a disclosure widget in which information is visible only when the widget is toggled into an \"open\" state. A summary or label must be provided using the\n <code>\n  summary\n </code>\n element."
+  },
+  "dialog": {
+    "balise": "<dialog>",
+    "name": "dialog",
+    "info": "Defines a dialog box or window",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+    "description": "The\n <strong>\n  <code>\n   &lt;dialog&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents a dialog box or other interactive component, such as a dismissible alert, inspector, or subwindow."
+  },
+  "summary": {
+    "balise": "<summary>",
+    "name": "summary",
+    "info": "Defines a visible heading for a <details> element",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary",
+    "description": "The\n <strong>\n  <code>\n   &lt;summary&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies a summary, caption, or legend for a\n <code>\n  details\n </code>\n element's disclosure box. Clicking the\n <code>\n  &lt;summary&gt;\n </code>\n element toggles the state of the parent\n <code>\n  &lt;details&gt;\n </code>\n element open and closed."
+  },
+  "data": {
+    "balise": "<data>",
+    "name": "data",
+    "info": "Adds a machine-readable \ntranslation of a given content",
+    "typeTitle": "Styles and Semantics",
+    "typeIndex": 9,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data",
+    "description": "The\n <strong>\n  <code>\n   &lt;data&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the\n <code>\n  time\n </code>\n element must be used."
+  },
+  "meta": {
+    "balise": "<meta>",
+    "name": "meta",
+    "info": "Defines metadata about an HTML document",
+    "typeTitle": "Meta Info",
+    "typeIndex": 10,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta",
+    "description": "The\n <strong>\n  <code>\n   &lt;meta&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents Metadata that cannot be represented by other HTML meta-related elements, like\n <code>\n  base\n </code>\n ,\n <code>\n  link\n </code>\n ,\n <code>\n  script\n </code>\n ,\n <code>\n  style\n </code>\n or\n <code>\n  title\n </code>\n ."
+  },
+  "base": {
+    "balise": "<base>",
+    "name": "base",
+    "info": "Specifies the base URL/target for all relative URLs in a document",
+    "typeTitle": "Meta Info",
+    "typeIndex": 10,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base",
+    "description": "The\n <strong>\n  <code>\n   &lt;base&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element specifies the base URL to use for all\n <em>\n  relative\n </em>\n URLs in a document. There can be only one\n <code>\n  &lt;base&gt;\n </code>\n element in a document."
+  },
+  "script": {
+    "balise": "<script>",
+    "name": "script",
+    "info": "Defines a client-side script",
+    "typeTitle": "Programming",
+    "typeIndex": 11,
+    "level": 2,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script",
+    "description": "The\n <strong>\n  <code>\n   &lt;script&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code. The\n <code>\n  &lt;script&gt;\n </code>\n element can also be used with other languages, such as\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API\">\n  WebGL\n </a>\n 's GLSL shader programming language and\n <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/JSON\">\n  JSON\n </a>\n ."
+  },
+  "noscript": {
+    "balise": "<noscript>",
+    "name": "noscript",
+    "info": "Defines an alternate content for users that do not support \nclient-side scripts",
+    "typeTitle": "Programming",
+    "typeIndex": 11,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript",
+    "description": "The\n <strong>\n  <code>\n   &lt;noscript&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser."
+  },
+  "embed": {
+    "balise": "<embed>",
+    "name": "embed",
+    "info": "Defines a container for an external (non-HTML) application",
+    "typeTitle": "Programming",
+    "typeIndex": 11,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed",
+    "description": "The\n <strong>\n  <code>\n   &lt;embed&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in."
+  },
+  "object": {
+    "balise": "<object>",
+    "name": "object",
+    "info": "Defines an embedded object",
+    "typeTitle": "Programming",
+    "typeIndex": 11,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object",
+    "description": "The\n <strong>\n  <code>\n   &lt;object&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin."
+  },
+  "param": {
+    "balise": "<param>",
+    "name": "param",
+    "info": "Defines a parameter for an object",
+    "typeTitle": "Programming",
+    "typeIndex": 11,
+    "level": 4,
+    "linkUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param",
+    "description": "The\n <strong>\n  <code>\n   &lt;param&gt;\n  </code>\n </strong>\n <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">\n  HTML\n </a>\n element defines parameters for an\n <code>\n  object\n </code>\n element."
+  }
+}
