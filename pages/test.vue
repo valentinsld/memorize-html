@@ -14,6 +14,10 @@
       Secondary button
     </button>
 
+    <button class="card" style="width: 200px; height: 300px">
+      <p>Text</p>
+    </button>
+
     <div class="card" style="width: 200px; height: 300px">
       <p>Text</p>
     </div>
