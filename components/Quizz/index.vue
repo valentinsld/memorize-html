@@ -1,6 +1,23 @@
 <template>
   <div>
-    Hello
+    <QuizzEnd v-if="end" />
+
+    <div v-if="questions[currentQuestion] && !end">
+      <QuizzProgress />
+
+      <QuizzTitle
+        :title="questions[currentQuestion].title"
+      />
+      <QuizzCards
+        ref="cards"
+        :data="questions[currentQuestion]"
+        :state="state"
+      />
+
+      <button class="btn" @click="next">
+        {{ !state ? 'validate' : 'next' }}
+      </button>
+    </div>
   </div>
 </template>
 
@@ -32,6 +49,7 @@ export default {
     return {
       currentQuestion: 0,
       questions: [],
+      leveledQuestions: [],
       state: 0,
       end: false,
       results: []
@@ -49,10 +67,51 @@ export default {
       const leveledData = [...this.data].filter(el => el.level === this.level)
 
       // get random from levelData
-      this.questions = sampleSize(leveledData, Math.min(leveledData.length, this.numberQuestion))
+      let questions = sampleSize(leveledData, Math.min(leveledData.length, this.numberQuestion))
 
       // shuffle array
-      this.questions = shuffle(this.questions)
+      questions = shuffle(questions)
+
+      // format questions
+      questions = questions.map((q) => {
+        const dataWithoutQ = [...leveledData].filter(d => d.name !== q.name)
+
+        // get answers
+        let answers = sampleSize(dataWithoutQ, 3)
+        answers = [...answers, q]
+        answers = shuffle(answers)
+
+        // title
+        const title = 'What ' + q.info.charAt(0).toLowerCase() + q.info.substring(1) + ' ?'
+
+        return {
+          title,
+          answers,
+          response: q
+        }
+      })
+
+      this.questions = questions
+    },
+    next () {
+      const cards = this.$refs.cards
+      if (typeof cards.response !== 'number' || isNaN(cards.response)) { return }
+
+      // if next question
+      if (this.state) {
+        this.currentQuestion += 1
+        cards.setResponse(null, true)
+      } else {
+        // if validate
+        const currentQuestion = this.questions[this.currentQuestion]
+        const responseUser = currentQuestion.answers[cards.response]
+        currentQuestion.responseUser = {
+          ...responseUser,
+          result: responseUser.name === currentQuestion.response.name
+        }
+      }
+
+      this.state = this.state ? 0 : 1
     }
   }
 }
