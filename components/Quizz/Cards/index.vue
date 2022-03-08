@@ -13,7 +13,7 @@
       @click="setResponse(index)"
     >
       {{ answer.balise }}
-      <span v-if="response === index">selected</span>
+      <span v-if="response === index && !state">selected</span>
       <span v-if="answer.name === data.response.name && state">GOOD RESPONSE</span>
       <span v-if="answer.name !== data.response.name && response === index && state">WRONG RESPONSE</span>
     </button>

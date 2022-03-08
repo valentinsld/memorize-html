@@ -1,10 +1,9 @@
 <template>
   <div>
-    <QuizzEnd v-if="end" />
+    <QuizzEnd v-if="end" :data="questions" />
+    <QuizzProgress :current="currentQuestion + 1" :max="questions.length" />
 
     <div v-if="questions[currentQuestion] && !end">
-      <QuizzProgress />
-
       <QuizzTitle
         :title="questions[currentQuestion].title"
       />
@@ -108,6 +107,12 @@ export default {
         currentQuestion.responseUser = {
           ...responseUser,
           result: responseUser.name === currentQuestion.response.name
+        }
+
+        // IF end
+        if (this.currentQuestion + 1 === this.questions.length) {
+          this.end = true
+          return
         }
       }
 
