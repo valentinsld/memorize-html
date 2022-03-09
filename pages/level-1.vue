@@ -3,7 +3,7 @@
     <Quizz
       :data="dataEN"
       :level="1"
-      :number-question="5"
+      :number-question="10"
     />
   </div>
 </template>

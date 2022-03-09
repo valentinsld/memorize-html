@@ -1,9 +1,22 @@
 <template>
-  <h1>Level 3</h1>
+  <div>
+    <Quizz
+      :data="dataEN"
+      :level="3"
+      :number-question="15"
+    />
+  </div>
 </template>
 
 <script>
+import dataEN from '../_assets/datas/en.json'
+
 export default {
-  name: 'Level3'
+  name: 'Level3',
+  data () {
+    return {
+      dataEN: Object.values(dataEN)
+    }
+  }
 }
 </script>

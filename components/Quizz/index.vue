@@ -71,7 +71,10 @@ export default {
   methods: {
     generateQuestions () {
       // select balise with level
-      const leveledData = [...this.data].filter(el => el.level === this.level)
+      let leveledData = [...this.data]
+      if (this.level !== -1) {
+        leveledData = [...this.data].filter(el => el.level === this.level)
+      }
 
       // get random from levelData
       let questions = sampleSize(leveledData, Math.min(leveledData.length, this.numberQuestion))
