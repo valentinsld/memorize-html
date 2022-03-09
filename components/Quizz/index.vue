@@ -13,6 +13,14 @@
         :state="state"
       />
 
+      <a
+        v-if="state"
+        class="btn -secondary"
+        :href="questions[currentQuestion].response.linkUrl"
+        target="_blank"
+      >
+        Learn more about {{ questions[currentQuestion].response.name }}
+      </a>
       <button class="btn" @click="next">
         {{ !state ? 'validate' : 'next' }}
       </button>
