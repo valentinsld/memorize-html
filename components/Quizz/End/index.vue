@@ -1,6 +1,14 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div>
-    {{ getScore }}
+    <p>
+      {{ getScore }}
+    </p>
+
+    <div v-for="q in data" :key="q.title">
+      <p>{{ q.response.balise }}</p>
+      <p v-html="q.response.description" />
+    </div>
   </div>
 </template>
 
