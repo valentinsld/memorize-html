@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import sampleSize from '~/helpers/sampleSize.js'
-import shuffle from '~/helpers/shuffleArr.js'
+import sampleSize from '~/helpers/sample.js'
+import shuffle from '~/helpers/shuffle.js'
 
 export default {
   name: 'Quizz',
