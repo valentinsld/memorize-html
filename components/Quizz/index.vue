@@ -1,9 +1,12 @@
 <template>
-  <div>
+  <div class="quizz">
     <QuizzEnd v-if="end" :data="questions" />
     <QuizzProgress :current="currentQuestion + 1" :max="questions.length" />
 
-    <div v-if="questions[currentQuestion] && !end">
+    <div
+      v-if="questions[currentQuestion] && !end"
+      class="quizz__content"
+    >
       <QuizzTitle
         :title="questions[currentQuestion].title"
       />
@@ -13,17 +16,19 @@
         :state="state"
       />
 
-      <a
-        v-if="state"
-        class="btn -secondary"
-        :href="questions[currentQuestion].response.linkUrl"
-        target="_blank"
-      >
-        Learn more about {{ questions[currentQuestion].response.name }}
-      </a>
-      <button class="btn" @click="next">
-        {{ !state ? 'validate' : 'next' }}
-      </button>
+      <div class="quizz__buttons">
+        <a
+          v-if="state"
+          class="btn -secondary"
+          :href="questions[currentQuestion].response.linkUrl"
+          target="_blank"
+        >
+          Learn more about {{ questions[currentQuestion].response.name }}
+        </a>
+        <button class="btn" @click="next">
+          {{ !state ? 'validate' : 'next' }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -31,6 +36,8 @@
 <script>
 import sampleSize from '~/helpers/sample.js'
 import shuffle from '~/helpers/shuffle.js'
+
+import './style.less'
 
 export default {
   name: 'Quizz',

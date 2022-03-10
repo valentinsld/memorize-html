@@ -1,11 +1,16 @@
 <template>
-  <div>
+  <div
+    class="cards"
+    :class="{
+      '-hasResponse': state
+    }"
+  >
     <button
       v-for="(answer, index) in data.answers"
       :key="index"
       :data-index="index"
+      class="card cards__item"
       :class="{
-        'card': true,
         '-selected': response === index,
         '-good': answer.name === data.response.name && state,
         '-wrong': answer.name !== data.response.name && response === index && state
@@ -13,14 +18,13 @@
       @click="setResponse(index)"
     >
       {{ answer.balise }}
-      <span v-if="response === index && !state">selected</span>
-      <span v-if="answer.name === data.response.name && state">GOOD RESPONSE</span>
-      <span v-if="answer.name !== data.response.name && response === index && state">WRONG RESPONSE</span>
     </button>
   </div>
 </template>
 
 <script>
+import './style.less'
+
 export default {
   name: 'QuizzCards',
   props: {
