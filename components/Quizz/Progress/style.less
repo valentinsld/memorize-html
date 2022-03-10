@@ -1,0 +1,41 @@
+.progress {
+  display: flex;
+  gap: 16px;
+
+  margin-bottom: 16px;
+
+  @media @mobile {
+    display: none;
+  }
+
+  &__item {
+    flex: 1;
+    height: 8px;
+
+    border-radius: 16px;
+    background-color: var(--color-primary);
+
+    opacity: 0.3;
+
+    transition: opacity 0.5s var(--custom-bezier);
+
+    &.-passed {
+      opacity: 1;
+    }
+  }
+
+  &.-hasLot {
+    gap: 8px
+  }
+
+  // Mobile
+  &Mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    @media @mobile {
+      display: flex;
+    }
+  }
+}
