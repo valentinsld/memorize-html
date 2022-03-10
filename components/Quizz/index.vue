@@ -78,13 +78,30 @@ export default {
   methods: {
     generateQuestions () {
       // select balise with level
-      let leveledData = [...this.data]
+      let leveledData = []
+      let questions = []
       if (this.level !== -1) {
         leveledData = [...this.data].filter(el => el.level === this.level)
-      }
 
-      // get random from levelData
-      let questions = sampleSize(leveledData, Math.min(leveledData.length, this.numberQuestion))
+        // get random from levelData
+        questions = sampleSize(leveledData, Math.min(leveledData.length, this.numberQuestion))
+      } else {
+        const dataLevel2 = [...this.data].filter(el => el.level === 2)
+        const dataLevel3 = [...this.data].filter(el => el.level === 3)
+        const dataLevel4 = [...this.data].filter(el => el.level === 4)
+        // TODO trier avec level
+        // level 1 :  0
+        // level 2 :  4 (0.1)
+        // level 3 : 10 (0.3)
+        // level 4 : 16 (0.6)
+        const questionsLevel2 = sampleSize(dataLevel2, Math.min(dataLevel2.length, Math.round(this.numberQuestion * 0.1)))
+        const questionsLevel3 = sampleSize(dataLevel3, Math.min(dataLevel2.length, Math.round(this.numberQuestion * 0.3)))
+        const questionsLevel4 = sampleSize(dataLevel4, Math.min(dataLevel2.length, Math.round(this.numberQuestion * 0.6)))
+
+        // get random from levelData
+        questions = [...questionsLevel2, ...questionsLevel3, ...questionsLevel4]
+        leveledData = questions
+      }
 
       // shuffle array
       questions = shuffle(questions)
