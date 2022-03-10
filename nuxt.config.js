@@ -37,7 +37,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/style-resources'
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -49,5 +50,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  styleResources: {
+    less: [
+      '~/_assets/less/variables.less'
+    ]
   }
 }
