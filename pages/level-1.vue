@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <Quizz
-      :data="dataEN"
-      :level="1"
-      :number-question="10"
-    />
-  </div>
+  <Quizz
+    :data="dataEN"
+    :level="1"
+    :number-question="10"
+  />
 </template>
 
 <script>
