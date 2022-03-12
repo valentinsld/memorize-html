@@ -1,0 +1,63 @@
+.home {
+  max-width: 550px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  //
+  // header
+  //
+  &__header {
+    margin-bottom: 3em;
+
+    & > * {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+
+    .header {
+      &__title {
+        margin-bottom: 0.25em;
+
+        span {
+          color: var(--color-primary);
+        }
+      }
+    
+      &__baseline {
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin-top: 0;
+      }
+    }
+  }
+
+  //
+  // Section
+  //
+  &__section {
+    width: 100%;
+
+    .section {
+      &__title {
+
+      }
+      &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 36px;
+
+        & > * {
+          width: calc(50% - 18px);
+        }
+      }
+    }
+  }
+}
