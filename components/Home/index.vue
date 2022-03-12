@@ -12,6 +12,7 @@
 
       <a
         class="header__mdnLink"
+        target="_blank"
         href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
       >
         Revise your html tags on MDN
@@ -38,14 +39,14 @@
         />
         <HomeCard
           link-to="level-3"
-          title="Table, forms &<br>multimedia"
+          title="Table, forms<br> & multimedia"
           tag="Advanced"
           color="orange"
           image="/imgs/Notebook.png"
         />
         <HomeCard
           link-to="level-4"
-          title="ROthers"
+          title="Others"
           tag="Advanced"
           color="orange"
           image="/imgs/Database.png"
@@ -78,7 +79,7 @@
 
     <footer>
       <p>
-        Developed with ❤️ by <a href="https://www.valentinsld.fr/">Valentin sld</a>
+        Developed with ❤️ by <a href="https://www.valentinsld.fr/" target="_blank">Valentin sld</a>
       </p>
     </footer>
   </div>
