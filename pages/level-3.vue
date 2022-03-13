@@ -3,6 +3,7 @@
     :data="dataEN"
     :level="3"
     :number-question="15"
+    link-next="/level-4"
   />
 </template>
 

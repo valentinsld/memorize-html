@@ -1,7 +1,7 @@
 <template>
   <div class="quizz">
     <QuizzProgress :current="currentQuestion + 1" :data="questions" />
-    <QuizzEnd v-if="end" :data="questions" />
+    <QuizzEnd v-if="end" :data="questions" :link-next="linkNext" />
 
     <div
       v-if="questions[currentQuestion] && !end"
@@ -56,6 +56,12 @@ export default {
       type: Number,
       default () {
         return 999
+      }
+    },
+    linkNext: {
+      type: String,
+      default () {
+        return ''
       }
     }
   },

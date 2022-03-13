@@ -57,8 +57,8 @@
     </section>
 
     <section class="quizzEnd__bottom">
-      <nuxt-link to="/" class="btn -secondary">
-        Next
+      <nuxt-link v-if="linkNext" :to="linkNext" class="btn -secondary">
+        Go to next Level
       </nuxt-link>
     </section>
   </div>
@@ -75,6 +75,12 @@ export default {
     data: {
       type: Array,
       required: true
+    },
+    linkNext: {
+      type: String,
+      default () {
+        return ''
+      }
     }
   },
   computed: {

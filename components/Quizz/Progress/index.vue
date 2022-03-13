@@ -11,8 +11,8 @@
         :key="index"
         class="progress__item"
         :class="{
-          '-wrong': d.responseUser ? d.responseUser.result : false,
-          '-right': d.responseUser ? !d.responseUser.result : false
+          '-wrong': d.responseUser ? !d.responseUser.result : false,
+          '-right': d.responseUser ? d.responseUser.result : false
         }"
       />
     </div>
@@ -28,6 +28,10 @@ import './style.less'
 export default {
   name: 'QuizzProgress',
   props: {
+    current: {
+      type: Number,
+      required: true
+    },
     data: {
       type: Array,
       required: true
