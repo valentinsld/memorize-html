@@ -1,7 +1,7 @@
 <template>
   <div class="quizz">
-    <QuizzEnd v-if="end" :data="questions" />
     <QuizzProgress :current="currentQuestion + 1" :max="questions.length" />
+    <QuizzEnd v-if="end" :data="questions" />
 
     <div
       v-if="questions[currentQuestion] && !end"
