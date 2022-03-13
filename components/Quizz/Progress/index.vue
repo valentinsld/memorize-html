@@ -7,11 +7,12 @@
       }"
     >
       <span
-        v-for="index in max"
+        v-for="(d, index) in data"
         :key="index"
         class="progress__item"
         :class="{
-          '-passed': index <= current
+          '-wrong': d.responseUser ? d.responseUser.result : false,
+          '-right': d.responseUser ? !d.responseUser.result : false
         }"
       />
     </div>
@@ -27,13 +28,14 @@ import './style.less'
 export default {
   name: 'QuizzProgress',
   props: {
-    current: {
-      type: Number,
+    data: {
+      type: Array,
       required: true
-    },
-    max: {
-      type: Number,
-      required: true
+    }
+  },
+  computed: {
+    max () {
+      return this.data.length
     }
   }
 }

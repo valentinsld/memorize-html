@@ -1,6 +1,6 @@
 <template>
   <div class="quizz">
-    <QuizzProgress :current="currentQuestion + 1" :max="questions.length" />
+    <QuizzProgress :current="currentQuestion + 1" :data="questions" />
     <QuizzEnd v-if="end" :data="questions" />
 
     <div
@@ -71,9 +71,6 @@ export default {
   },
   beforeMount () {
     this.generateQuestions()
-  },
-  getComputed: {
-
   },
   methods: {
     generateQuestions () {
