@@ -25,6 +25,7 @@
     .socials {
       &__title {
         font-size: 1.5em;
+        text-align: center;
       }
 
       &__links {
@@ -58,6 +59,12 @@
 
     border-radius: 20px;
     overflow: hidden;
+
+    @media @mobile {
+      margin-left: -16px;
+      margin-right: -16px;
+      border-radius: 0;
+    }
 
     .table {
       &__row {
@@ -102,6 +109,10 @@
         flex: 1;
         padding-bottom: 1em;
         font-size: 0.9em;
+
+        @media @mobile {
+          font-size: 1.05em;
+        }
 
         font-weight: var(--weight-light);
       }
