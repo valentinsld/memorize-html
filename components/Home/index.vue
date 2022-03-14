@@ -81,6 +81,9 @@
       <p>
         Developed with ❤️ by <a href="https://www.valentinsld.fr/" target="_blank">Valentin sld</a>
       </p>
+      <p>
+        Icons by <a href="https://free3dicon.com" target="_blank">free3dicon</a>
+      </p>
     </footer>
   </div>
 </template>
