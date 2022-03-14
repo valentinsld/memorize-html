@@ -35,12 +35,40 @@
 
   // Mobile
   &Mobile {
+    position: relative;
     display: none;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+
+    color: var(--color-primary);
+    font-weight: var(--weight-semi-bold);
 
     @media @mobile {
       display: flex;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+
+      width: 38%;
+      height: 1px;
+
+      background-color: var(--color-primary);
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+
+      width: 38%;
+      height: 1px;
+
+      background-color: var(--color-primary);
     }
   }
 }
