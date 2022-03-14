@@ -65,6 +65,7 @@
 </template>
 
 <script>
+import JSConfetti from 'js-confetti'
 import './style.less'
 
 const TEXT_SHARE = 'Test your knowledge of HTML! Try to beat my score: {{score}}/{{scoreMax}} on '
@@ -98,12 +99,25 @@ export default {
       return `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}&quote=${this.getTextShare()}`
     }
   },
+  mounted () {
+    this.initConfetti()
+  },
   methods: {
     getTextShare () {
       const score = this.data.reduce((a, b) => a + (b.responseUser.result ? 1 : 0), 0)
       const scoreMax = this.data.length
 
       return TEXT_SHARE.replace('{{score}}', score).replace('{{scoreMax}}', scoreMax)
+    },
+    initConfetti () {
+      const jsConfetti = new JSConfetti()
+
+      const score = this.data.reduce((a, b) => a + (b.responseUser.result ? 1 : 0), 0)
+      const scoreMax = this.data.length
+
+      jsConfetti.addConfetti({
+        confettiNumber: 500 * score / scoreMax
+      })
     }
   }
 }
