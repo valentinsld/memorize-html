@@ -2,7 +2,7 @@
 <template>
   <nuxt-link
     :class="`homeCard card -${color}`"
-    to="level-1"
+    :to="linkTo"
   >
     <img class="homeCard__image" :src="image">
     <h4 class="homeCard__title" v-html="title" />
