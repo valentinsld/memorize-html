@@ -17,7 +17,20 @@
       }"
       @click="setResponse(index)"
     >
-      {{ answer.balise }}
+      <span>
+        {{ answer.balise }}
+      </span>
+      <span
+        v-if="answer.name === data.response.name && state"
+        class="info"
+        v-html="answer.description.replaceAll('<a', '<span').replaceAll('</a', '</span')"
+      />
+      <span
+        v-if="answer.name !== data.response.name && response === index && state"
+        class="info"
+      >
+        {{ answer.info }}
+      </span>
     </button>
   </div>
 </template>
