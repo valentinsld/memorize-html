@@ -8,6 +8,10 @@ html, body {
   line-height: 1.2;
 
   color: var(--color-grey);
+
+  @media @tablet {
+    font-size: 16px;
+  }
 }
 html {
   min-height: 100vh;
@@ -57,6 +61,19 @@ h2, .titleH2 {
 }
 h3, .titleH3 {
   font-size: 1.3em;
+}
+
+@media @mobile {
+  h1, .titleH1 {
+    font-size: 2.45em;
+    text-align: center;
+  }
+  h2, .titleH2 {
+    font-size: 1.8em;
+  }
+  h3, .titleH3 {
+    font-size: 1.15em;
+  }
 }
 
 h1, .titleH1,
