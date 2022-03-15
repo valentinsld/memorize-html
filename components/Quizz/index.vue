@@ -1,5 +1,7 @@
 <template>
   <div class="quizz">
+    <BackHome />
+
     <QuizzProgress :current="currentQuestion + 1" :data="questions" />
     <QuizzEnd v-if="end" :data="questions" :link-next="linkNext" />
 

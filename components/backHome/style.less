@@ -1,0 +1,22 @@
+.backHome {
+  position: fixed;
+  z-index: 2;
+
+  @media @not-mobile {
+    bottom: 24px;
+    left: 32px;
+  }
+
+  @media @mobile {
+    top: 24px;
+    left: 16px;
+
+    a {
+      font-weight: var(--weight-semi-bold);
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
