@@ -17,7 +17,7 @@
       />
     </div>
     <p class="progressMobile">
-      {{ current }} / {{ max }}
+      Question {{ current }} / {{ max }}
     </p>
   </div>
 </template>
