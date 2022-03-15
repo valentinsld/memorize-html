@@ -17,6 +17,9 @@
       >
         Revise your html tags on MDN
       </a>
+
+      <img class="header__img -computer" src="/imgs/Computer@2x.png">
+      <img class="header__img -code" src="/imgs/Code@2x.png">
     </header>
 
     <section class="home__section">

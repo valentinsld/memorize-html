@@ -12,6 +12,7 @@
   // header
   //
   &__header {
+    position: relative;
     margin-bottom: 3em;
 
     & > * {
@@ -36,6 +37,37 @@
 
         @media @mobile {
           font-size: 1em;
+        }
+      }
+
+      // absolute imgs
+      &__img {
+        position: absolute;
+        z-index: -1;
+        width: 112px;
+        height: auto;
+
+        &.-computer {
+          bottom: -25%;
+          left: -50%;
+          transform: rotate(-5deg);
+        }
+        &.-code {
+          bottom: 10%;
+          right: -50%;
+        }
+
+        @media @mobile {
+          &.-computer {
+            left: -35%;
+            bottom: -35%;
+            filter: blur(3px);
+          }
+          &.-code {
+            right: -38%;
+            bottom: -50%;
+            width: 142px;
+          }
         }
       }
     }
