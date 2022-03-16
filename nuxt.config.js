@@ -8,11 +8,23 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'Educational games to learn HTML tags. Because we don’t use tags well enough.', name: 'Educational games to learn HTML tags. Because we don’t use tags well enough.', content: 'Educational games to learn HTML tags. Because we don’t use tags well enough.' },
+      { hid: 'description', name: 'description', content: 'Educational games to learn HTML tags. Because we don’t use tags well enough.' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'keywords', content: 'HTML, balise, learning, tags, MDN, learn' },
+      { name: 'author', content: 'Valentin SLd' },
 
       { name: 'msapplication-TileColor', content: '#2b5797' },
-      { name: 'theme-color', content: '#ffffff' }
+      { name: 'theme-color', content: '#ffffff' },
+
+      { property: 'og:locale', content: 'en' },
+      { property: 'og:type', content: 'game' },
+      { property: 'og:title', content: 'Memorize HTML - Educational games to learn HTML tags' },
+      { property: 'og:description', content: 'Educational games to learn HTML tags. Because we don’t use tags well enough.' },
+      { property: 'og:image', content: 'https://memorize-html.vercel.app/share.png' },
+      { property: 'og:image:secure_url', content: 'https://memorize-html.vercel.app/share.png' },
+      { property: 'og:url', content: 'https://memorize-html.vercel.app/' },
+      { property: 'og:site_name', content: 'Memorize HTML' },
+      { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
