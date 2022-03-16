@@ -15,6 +15,11 @@ export default {
     return {
       dataEN: Object.values(dataEN)
     }
+  },
+  head () {
+    return {
+      title: 'Level 5 - Memorize HTML'
+    }
   }
 }
 </script>
