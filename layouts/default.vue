@@ -8,6 +8,17 @@
 import '../_assets/less/_main.less'
 
 export default {
-  name: 'LayoutDefault'
+  name: 'LayoutDefault',
+  mounted () {
+    this.setGoatCounter()
+  },
+  methods: {
+    setGoatCounter () {
+      const script = document.createElement('script')
+      script.setAttribute('src', '//gc.zgo.at/count.js')
+      script.dataset.goatcounter = 'https://html-memoryze.goatcounter.com/count'
+      document.head.appendChild(script)
+    }
+  }
 }
 </script>
