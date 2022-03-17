@@ -16,7 +16,7 @@
 import './style.less'
 
 export default {
-  name: 'HomeBLog',
+  name: 'HomeCard',
   props: {
     linkTo: {
       type: String,
