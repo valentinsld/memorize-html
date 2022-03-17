@@ -46,7 +46,7 @@ export default {
   },
   data () {
     return {
-      popup: false
+      popup: true
     }
   },
   methods: {
