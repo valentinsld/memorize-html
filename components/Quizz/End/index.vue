@@ -6,6 +6,9 @@
       <h2 class="top__score">
         YOUR SCORE : {{ getScore }}/{{ data.length }}
       </h2>
+      <p class="top__subScore">
+        {{ getSubScore }}
+      </p>
     </section>
 
     <section class="quizzEnd__socials">
@@ -88,6 +91,20 @@ export default {
     getScore () {
       const score = this.data.reduce((a, b) => a + (b.responseUser.result ? 1 : 0), 0)
       return score
+    },
+    getSubScore () {
+      const score = this.data.reduce((a, b) => a + (b.responseUser.result ? 1 : 0), 0) / this.data.length
+
+      let text = 'Oops 🙊 Try again to improve your score!'
+      if (score > 0.8) {
+        text = 'Just too loud! 😎 🥳'
+      } else if (score > 0.6) {
+        text = 'Not bad !! You can go to the next level 🤩'
+      } else if (score > 0.4) {
+        text = 'That\'s a good score! But you can still do better 😉'
+      }
+
+      return text
     },
     getLinkTwitter () {
       return `https://twitter.com/intent/tweet?text=${this.getTextShare()} ${window.location.href}`
