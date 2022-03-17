@@ -16,7 +16,123 @@
     }
   }
 
-  a {
+  a, &__link {
     text-decoration: none;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+
+    color: var(--color-primary);
+
+    transition: all 0.3s var(--custom-bezier);
+  
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  //
+  // popupup
+  //
+  &__popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+
+    // affichage
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms var(--custom-bezier);
+
+    &.-open {
+      pointer-events: initial;
+      opacity: 1;
+    }
+
+    .popup {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+      cursor: initial;
+
+      padding: 24px 36px;
+      margin: 16px;
+      background-color: #fcfcfc;
+
+      @media @mobile {
+        padding: 16px 24px;
+      }
+
+      &:hover {
+        transform: none;
+      }
+
+      &__title {
+        margin-bottom: 0;
+        text-align: center;
+      }
+      &__subtitle {
+        text-align: center;
+        margin-top: 0.5em;
+        margin-bottom: 4em;
+
+        @media @mobile {
+          margin-bottom: 2.5em;
+        }
+      }
+      &__buttons {
+        margin-bottom: 12px;
+
+        @media @mobile {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          margin-bottom: 0;
+        }
+      }
+      &__link {
+        background: none;
+        border: none;
+        margin-right: 24px;
+
+        cursor: pointer;
+        text-decoration: underline;
+
+        color: var(--color-primary);
+
+        transition: all 0.3s var(--custom-bezier);
+      
+        &:hover {
+          opacity: 0.7;
+        }
+
+        @media @mobile {
+          margin-bottom: 16px;
+          margin-right: 0;
+        }
+      }
+      &__button {
+        border-color: var(--color-red);
+        background-color: var(--color-red);
+
+        color: var(--color-white);
+      }
+    }
   }
 }
