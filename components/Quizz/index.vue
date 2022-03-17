@@ -151,6 +151,7 @@ export default {
 
         // IF end
         if (this.currentQuestion + 1 === this.questions.length) {
+          this.currentQuestion = this.questions.length
           this.end = true
           return
         }
