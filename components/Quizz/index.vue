@@ -1,6 +1,6 @@
 <template>
   <div class="quizz">
-    <BackHome />
+    <BackHome :end="end" />
 
     <QuizzProgress :current="currentQuestion + 1" :data="questions" />
     <QuizzEnd v-if="end" :data="questions" :link-next="linkNext" />
@@ -80,7 +80,17 @@ export default {
   beforeMount () {
     this.generateQuestions()
   },
+  mounted () {
+    this.onCloseTab()
+  },
   methods: {
+    onCloseTab () {
+      window.onbeforeunload = () => {
+        if (!this.end) {
+          return 'Are you sure you want to leave? This will delete your progress'
+        }
+      }
+    },
     generateQuestions () {
       // select balise with level
       let leveledData = []
