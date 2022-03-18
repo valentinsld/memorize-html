@@ -1,5 +1,7 @@
 <template>
   <div class="memory">
+    <BackHome :end="true" />
+
     <header class="memory__header">
       <h1 class="memory__title">
         How many HTML tags can you remember ?
