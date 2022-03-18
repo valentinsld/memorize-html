@@ -25,7 +25,8 @@
         </button>
 
         <div>
-          {{ help.tagName + ' ' +help.help }}
+          <span>{{ help.tagName }}</span>
+          {{ ' ' +help.help }}
         </div>
       </div>
     </content>
@@ -43,6 +44,7 @@
 </template>
 
 <script>
+import JSConfetti from 'js-confetti'
 import './style.less'
 
 export default {
@@ -117,6 +119,10 @@ export default {
         this.responses.push(value)
         input.value = ''
         this.newHelp(value)
+
+        if (this.remaining.length === 0) {
+          this.endAnimation()
+        }
       } else if (isTagResponse) {
         this.errorInput = input.value + ' is already entered'
         input.value = ''
@@ -157,6 +163,15 @@ export default {
       const { helpContent } = this.$refs
 
       helpContent.classList.add('-see')
+    },
+
+    // END
+    endAnimation () {
+      const jsConfetti = new JSConfetti()
+
+      jsConfetti.addConfetti({
+        confettiNumber: 500
+      })
     }
   }
 }
