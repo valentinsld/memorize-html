@@ -71,8 +71,8 @@
 
       <div class="section__cards">
         <HomeCard
-          link-to="/"
-          title="Start game !<br>(Soon)"
+          link-to="/memory"
+          title="Start game !"
           tag="Expert"
           color="blue"
           image="/imgs/Processor.png"
