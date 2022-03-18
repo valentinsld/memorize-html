@@ -4,8 +4,11 @@
       <h1 class="memory__title">
         How many HTML tags can you remember ?
       </h1>
-      <p class="memory__subtitle">
+      <p v-if="remaining.length" class="memory__subtitle">
         {{ remaining.length }} remaining
+      </p>
+      <p v-else>
+        You find all tags !!!
       </p>
     </header>
 
@@ -21,7 +24,7 @@
       </div>
       <div ref="helpContent">
         <button @click="seeHelp">
-          You need helps ?
+          Need hints ?
         </button>
 
         <div>
