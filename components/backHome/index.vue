@@ -2,16 +2,16 @@
 <template>
   <nav class="backHome">
     <nuxt-link v-if="end" to="/">
-      < Back to home Link
+      < Back to home
     </nuxt-link>
     <button v-else class="backHome__link" @click="openPopup">
-      < Back to home Popup
+      < Back to home
     </button>
 
     <div class="backHome__popup" :class="{'-open': popup}">
       <div class="popup card">
         <h3 class="popup__title">
-          Are you sure to leave the quiz ?
+          Are you sure to leave the {{ name }} ?
         </h3>
         <p class="popup__subtitle">
           This will delete your progress
@@ -19,10 +19,10 @@
 
         <div class="popup__buttons">
           <button class="popup__link" @click="closePopup">
-            Continue the quiz
+            Continue the {{ name }}
           </button>
           <nuxt-link class="popup__button btn" to="/">
-            Leave the quiz
+            Leave the {{ name }}
           </nuxt-link>
         </div>
       </div>
@@ -41,6 +41,12 @@ export default {
       type: Boolean,
       default () {
         return false
+      }
+    },
+    name: {
+      type: String,
+      default () {
+        return 'quizz'
       }
     }
   },
