@@ -83,6 +83,9 @@ export default {
   mounted () {
     this.onCloseTab()
   },
+  beforeDestroy () {
+    window.onbeforeunload = null
+  },
   methods: {
     onCloseTab () {
       window.onbeforeunload = () => {

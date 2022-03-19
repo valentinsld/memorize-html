@@ -1,6 +1,6 @@
 <template>
   <div class="memory">
-    <BackHome :end="true" />
+    <BackHome :end="false" name="memory" />
 
     <header class="memory__header">
       <h1 class="memory__title">
@@ -74,8 +74,17 @@ export default {
   mounted () {
     this.initInput()
     this.initHelp()
+    this.onCloseTab()
+  },
+  beforeDestroy () {
+    window.onbeforeunload = null
   },
   methods: {
+    onCloseTab () {
+      window.onbeforeunload = () => {
+        return true
+      }
+    },
     createRemaining () {
       const remaining = []
 
