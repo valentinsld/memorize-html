@@ -3,10 +3,10 @@
     <BackHome :end="false" name="memory" />
 
     <header class="memory__header">
-      <h1 class="memory__title">
+      <h1 class="header__title">
         How many HTML tags can you remember ?
       </h1>
-      <p v-if="remaining.length" class="memory__subtitle">
+      <p v-if="remaining.length" class="header__subtitle">
         {{ remaining.length }} remaining
       </p>
       <p v-else>
@@ -15,34 +15,39 @@
     </header>
 
     <content class="memory__form">
-      <div>
-        <input ref="input" placeholder="tag">
-        <button @click="validate">
-          Validate
-        </button>
-        <p v-if="errorInput">
+      <div class="form__content">
+        <div class="content__container card">
+          <input ref="input" class="content__input" placeholder="tag">
+          <button class="content__button btn" @click="validate">
+            Validate
+          </button>
+        </div>
+      </div>
+      <div ref="helpContent" class="form__help">
+        <p v-if="errorInput" class="help__error">
           {{ errorInput }}
         </p>
-      </div>
-      <div ref="helpContent">
-        <button @click="seeHelp">
+        <button class="help__btn link" @click="seeHelp">
           Need hints ?
         </button>
 
-        <div>
-          <span>{{ help.tagName }}</span>
+        <div class="help__popup card">
           {{ ' ' +help.help }}
         </div>
       </div>
     </content>
 
-    <content class="memory__table">
-      <div v-for="(res, index) in responses" :key="res+index" class="table__row">
-        <p>{{ index }}</p>
-        <p>{{ res }}</p>
-      </div>
+    <content class="memory__table card">
       <div class="table__rowEnd">
         {{ remaining.length }} remaining
+      </div>
+      <div v-for="(res, index) in responses" :key="res+index" class="table__row">
+        <p class="row__index">
+          {{ index }}.
+        </p>
+        <p class="row__tag">
+          {{ res }}
+        </p>
       </div>
     </content>
   </div>
@@ -148,7 +153,7 @@ export default {
       const { helpContent } = this.$refs
 
       window.addEventListener('click', function (e) {
-        if (helpContent.contains(e.target)) {
+        if (!helpContent.contains(e.target)) {
           helpContent.classList.remove('-see')
         }
       })
