@@ -28,11 +28,11 @@
           {{ errorInput }}
         </p>
         <button class="help__btn link" @click="seeHelp">
-          Need hints ?
+          Need hints ? ({{ Math.max(leftHint - 1, 0) }} left)
         </button>
 
         <div class="help__popup card">
-          {{ ' ' +help.help }}
+          {{ leftHint ? help.help : 'No more hint' }}
         </div>
       </div>
     </content>
@@ -70,7 +70,9 @@ export default {
       responses: [],
       remaining: [],
       errorInput: '',
-      help: { tagName: '', help: '', level: 0 }
+      help: { tagName: '', help: '', level: 0 },
+      leftHint: 4,
+      lastHint: null
     }
   },
   beforeMount () {
@@ -182,6 +184,11 @@ export default {
       const { helpContent } = this.$refs
 
       helpContent.classList.add('-see')
+
+      if (this.lastHint !== this.help.tagName) {
+        this.leftHint -= 1
+        this.lastHint = this.help.tagName
+      }
     },
 
     // END
