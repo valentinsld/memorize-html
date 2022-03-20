@@ -4,7 +4,7 @@
 
     <header class="memory__header">
       <h1 class="header__title">
-        How many HTML tags can you remember ?
+        How many <span>HTML tags</span> can you remember ?
       </h1>
       <p v-if="remaining.length" class="header__subtitle">
         {{ remaining.length }} remaining
