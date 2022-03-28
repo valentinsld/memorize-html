@@ -32,7 +32,13 @@
       color: var(--color-white);
     }
 
-    &.-selected, &.-good {
+    &.-selected {
+      background-color: var(--color-green);
+      background: linear-gradient(
+        -20deg, rgba(119, 125, 253, 0.8), rgba(119, 125, 253, 0.6)
+      );
+    }
+    &.-good {
       background-color: var(--color-green);
       background: linear-gradient(
         -20deg, rgba(131, 190, 105, 0.8), rgba(131, 190, 105, 0.6)
@@ -45,6 +51,10 @@
       )!important;
 
       animation: shake 0.5s; 
+    }
+
+    &.-selected.-good {
+      animation: win 0.65s; 
     }
 
     .info {
@@ -71,4 +81,9 @@
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes win {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
