@@ -2,7 +2,7 @@
 <template>
   <div class="quizzEnd">
     <section class="quizzEnd__top">
-      <img class="top__image" src="/imgs/trophy.png">
+      <img class="top__image" src="/imgs/Trophy.png">
       <h2 class="top__score">
         YOUR SCORE : {{ getScore }}/{{ data.length }}
       </h2>
