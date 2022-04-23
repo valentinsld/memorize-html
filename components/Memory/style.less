@@ -60,6 +60,18 @@
 
             box-shadow: none;
           }
+
+          @media @mobile {
+            &__container {
+              flex-direction: column;
+            }
+            &__input {
+              width: calc(100% - 2em);
+            }
+            &__button {
+              margin-top: 1em;
+            }
+          }
         }
       }
       &__help {
@@ -83,6 +95,8 @@
             border: none;
 
             margin-left: auto;
+
+            white-space: nowrap;
           }
           &__popup {
             pointer-events: none;
