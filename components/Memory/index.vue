@@ -162,7 +162,6 @@ export default {
     },
     newHelp (value = '', remaining = this.remaining) {
       if (value !== this.help.tagName) { return }
-      // TODO
       // select in first level 1 puis level 2 puis autre
       let dataLevel = 1
       let data = [...this.remaining].filter(el => el.level === dataLevel)

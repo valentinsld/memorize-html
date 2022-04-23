@@ -107,7 +107,6 @@ export default {
         const dataLevel2 = [...this.data].filter(el => el.level === 2)
         const dataLevel3 = [...this.data].filter(el => el.level === 3)
         const dataLevel4 = [...this.data].filter(el => el.level === 4)
-        // TODO trier avec level
         // level 1 :  0
         // level 2 :  4 (0.1)
         // level 3 : 10 (0.3)
