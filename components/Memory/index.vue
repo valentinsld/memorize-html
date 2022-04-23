@@ -143,12 +143,16 @@ export default {
 
         if (this.remaining.length === 0) {
           this.endAnimation()
+        } else {
+          input.select()
         }
       } else if (isTagResponse) {
         this.errorInput = input.value + ' is already entered'
         input.value = ''
+        input.select()
       } else {
         this.errorInput = input.value + ' does\'nt exist'
+        input.select()
       }
     },
     initHelp () {
