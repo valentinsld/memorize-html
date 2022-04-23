@@ -16,7 +16,7 @@
         }"
       />
     </div>
-    <p class="progressMobile">
+    <p v-if="current <= max" class="progressMobile">
       Question {{ current }} / {{ max }}
     </p>
   </div>
