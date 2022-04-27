@@ -88,6 +88,10 @@
         Icons by <a href="https://free3dicon.com" target="_blank">free3dicon</a>
       </p>
     </footer>
+
+    <div class="home__producthunt">
+      <a href="https://www.producthunt.com/posts/memorize-html?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-memorize&#0045;html" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=344229&theme=light" alt="Memorize&#0032;HTML - Educational&#0032;games&#0032;to&#0032;learn&#0032;HTML&#0032;tags&#0046;&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54"></a>
+    </div>
   </div>
 </template>
 
